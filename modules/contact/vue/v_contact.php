@@ -1,11 +1,20 @@
-<?php
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-?>
-<form method="POST" action="#">
-    <label> </label> <input name="" id="">
+
+<div class="row overlay">
+    <div class="col-lg-offset-2">
+        
+<form class="col-lg-8 form_v_contact" method="POST" action="#">
+    <h2>Contacter l'AE MIAGE</h2>
+    <label for="nom">Nom : </label> <input class="input-contact form-control" cols="3" type="text" name="nom" id="nom" required>
+    <label for="prenom">Prenom : </label> <input class="input-contact form-control" type="text" name="prenom" id="prenom" >
+    <label for="email">Email : </label> <input class="input-contact form-control" type="email" name="email" id="email" required>
+    <label for="message">Message : </label> <textarea class="form-control" name="message" id="message" rows="3" required></textarea>
+    <input class="btn btn-info" type="submit" value="Envyer">
+    <input class="btn" type="reset" value="Annuler">
+
+
 </form>
+
+    </div>  
+
+</div>

@@ -33,6 +33,7 @@
                     <li><a href="#">Etudiants</a></li>
                     <li><a href="contact.php">Contacts</a></li>
                     <li><a href="/MiageGIWebApp/connexion">Connexion</a></li>
+                    <li><a href="/MiageGIWebApp/emplois">Emplois du temps</a></li>
                 </ul>
             </div>
 
