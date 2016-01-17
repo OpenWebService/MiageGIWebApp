@@ -8,9 +8,7 @@
 
 <body>
     <!-- start preloader -->
-    <div class="preloader">
-        <div class="sk-spinner sk-spinner-rotating-plane"></div>
-    </div>
+   
     <!-- end preloader -->
     <!-- start navigation -->
     <nav class="navbar navbar-default navbar-fixed-top templatemo-nav" role="navigation">
@@ -25,11 +23,11 @@
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right text-uppercase">
-                    <li><a href="">Accueil</a></li>
-                    <li><a href="#">Clubs</a></li>
-                    <li><a href="#">Formation</a></li>
+                    <li><a href="admission.php">Admission</a></li>
+                    <li><a href="formation.php">Formations</a></li>
+                    <li><a href="debouches.php">Débouchés</a></li>
                     <li><a href="#">Etudiants</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="contact.php">Contacts</a></li>
                     <li><a href="/MiageGIWebApp/connexion">Connexion</a></li>
                 </ul>
             </div>
