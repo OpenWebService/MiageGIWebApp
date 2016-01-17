@@ -8,9 +8,7 @@
 
 <body>
     <!-- start preloader -->
-    <div class="preloader">
-        <div class="sk-spinner sk-spinner-rotating-plane"></div>
-    </div>
+    
     <!-- end preloader -->
     <!-- start navigation -->
     <nav class="navbar navbar-default navbar-fixed-top templatemo-nav" role="navigation">

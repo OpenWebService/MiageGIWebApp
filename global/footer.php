@@ -19,7 +19,7 @@
 <script src="global/js/jquery.js"></script>
 <script src="global/js/bootstrap.min.js"></script>
 <script src="global/js/wow.min.js"></script>
-<script src="global/js/jquery.singlePageNav.min.js"></script>
+
 <script src="global/js/custom.js"></script>
 </body>
 </html>
