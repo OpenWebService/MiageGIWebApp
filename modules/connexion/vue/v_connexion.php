@@ -24,11 +24,11 @@
         
         <div class="form-group">
             <label>Login</label>
-            <input class="form-control" type="email" />
+            <input class="form-control" name="login" type="email" value="diarranabe@gmail.com" />
         </div>
         <div class="form-group">
             <label>Password</label>
-            <input class="form-control" type="password" />
+            <input class="form-control" name="pass" type="password" value="diarranbe"/>
         </div>
         <button class="btn btn-info" >Connexion</button>
     </form>
