@@ -3,7 +3,7 @@
 include 'coeur/init.php';
 
 /*
- * Parseur d'url
+ * Parseur d'url dans barre
  */
 
 $module = Coeur::parse_url();
