@@ -19,6 +19,10 @@
 <script src="global/js/jquery.js"></script>
 <script src="global/js/bootstrap.min.js"></script>
 <script src="global/js/wow.min.js"></script>
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 <script src="global/js/custom.js"></script>
 </body>
 </html>

@@ -1,3 +1,17 @@
+ <?php 
+
+  // Connexion à la base de données
+
+try
+{
+       $bdd = new PDO('mysql:host=localhost;dbname=ae_miage', 'root', '');
+}
+catch(Exception $e)
+{
+       die('Erreur : '.$e->getMessage());
+}
+ ?>
+
 <?php
 
 /*
@@ -7,12 +21,24 @@
  */
 
 if (isset($_POST["login"]) and isset($_POST["pass"])) {    
-    
-    $query = $bdd->prepare('SELECT * FROM etudiants WHERE email=? AND pass=?');
-    $query->execute(array($_POST["login"], $_POST["login"]));
-    
-    
-    header();
+        $login=$_POST["login"];
+        
+        $pass=$_POST["pass"];
+    $query = $bdd->prepare('SELECT * FROM admin WHERE email=? AND pass=?');
+    $query->execute(array($login, $pass));
+    if($etud=$query->fetch()){
+        
+        session_start();        
+        $_SESSION['id'] = $etud["id"];
+        $_SESSION['nom'] = $etud["nom"];
+        $_SESSION['pseudo'] = $etud["pseudo"];
+        $_SESSION['email'] = $etud["email"];
+        
+        header('Location: /MiageGIWebApp/');
+    }  else {
+        echo 'PAS CONNECTE';
+    }
+    ///header();
 } else {
 
 
